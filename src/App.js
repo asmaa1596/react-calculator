@@ -4,6 +4,7 @@ import ResultComponent from './components/ResultComponent';
 import KeypadComponent from './components/KeypadComponent';
 
 
+
 class App extends Component {
   constructor(){
     super();
@@ -68,7 +69,7 @@ class App extends Component {
     return(
       <div>
         <div className = "calculator-body">
-          <h1>Simple React Calculator</h1>
+          <h1>React Calculator</h1>
           <ResultComponent result={this.state.result}/>
           <KeypadComponent onClick={this.onClick}/>
         </div>
